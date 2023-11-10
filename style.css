@@ -69,7 +69,7 @@
 }
 
 .secao {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   font-family: var(--fonte-padrao);
   color: var(--azul-escuro);
   font-size: 30px;
@@ -99,7 +99,7 @@
 
 div > h2 {
   font-family: var(--fonte-padrao);
-  font-size: 50px;
+  font-size: 40px;
   color: var(--laranja);
   text-shadow: 2px 2px var(--sombra);
   margin-bottom: 15px;
@@ -121,7 +121,7 @@ div img {
   text-align: center;
   color: var(--branco);
   font-family: var(--fonte-padrao);
-  font-size: 30px;
+  font-size: 25px;
   text-shadow: 2px 2px var(--sombra);
   margin-bottom: 15px;
   background-color: var(--azul-escuro-tranparente);
