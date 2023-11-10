@@ -41,12 +41,12 @@
 }
 
 .slogan {
-  margin: 20px;
+  margin: 10px;
   font-family: var(--fonte-titulo-slogan);
   color: var(--branco);
   text-shadow: 2px 1px 0px var(--sombra);
   font-weight: lighter;
-  font-size: 50px;
+  font-size: 40px;
   min-width: 200px;
   max-width: 400px;
   width: 50%;
@@ -58,7 +58,7 @@
 }
 
 .sobre{
-  margin-left: 20px;
+  margin-left: 10px;
   font-family: var(--fonte-padrao);
   color: var(--branco);
   text-shadow: 2px 1px 0px var(--sombra);
