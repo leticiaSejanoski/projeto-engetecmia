@@ -87,14 +87,13 @@
 
 .robo {
   min-width: 280px;
-  max-width: 500px;
+  max-width: 400px;
   width: 50%;
 
   background-color: var(--azul-escuro-tranparente);
   border: 4px solid var(--laranja);
   margin: 20px;
   padding: 30px;
-  
 }
 
 
@@ -136,3 +135,4 @@ footer{
   text-align: center;
   padding: 5px;
 }
+
