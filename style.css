@@ -7,7 +7,7 @@
 
 :root {
   --branco: #ffffff;
-  --cinza-azulado:#bad3dbee;
+  --cinza-azulado: #bad3dbee;
   --cinza-fosco: #ffffffa9;
   --laranja: #f5a851;
   --azul-claro: #4fb6c9;
@@ -18,11 +18,11 @@
   --fonte-padrao: 'Tektur', arial;
 }
 
- *{
+* {
   margin: 0px;
   padding: 0px;
   min-width: 200px;
-} 
+}
 
 .principal {
   background-image: url(img/banner.jpg);
@@ -57,7 +57,7 @@
 
 }
 
-.sobre{
+.sobre {
   margin-left: 10px;
   font-family: var(--fonte-padrao);
   color: var(--branco);
@@ -97,7 +97,7 @@
 }
 
 
-div > h2 {
+div>h2 {
   font-family: var(--fonte-padrao);
   font-size: 40px;
   color: var(--laranja);
@@ -114,6 +114,10 @@ div img {
   margin: auto;
 }
 
+div:hover>img {
+  display: none;
+}
+
 .descricao {
   min-width: 200px;
   max-width: 490px;
@@ -126,13 +130,26 @@ div img {
   margin-bottom: 15px;
   background-color: var(--azul-escuro-tranparente);
   border: 3px solid var(--azul-claro);
-  
+
 }
 
-footer{
+.funcoes {
+  display: none;
+  font-family: var(--fonte-padrao);
+  color: var(--branco);
+  text-shadow: 0.5px 0.5px var(--sombra);
+  font-size: 20px;
+  height: 390px;
+  margin-left: 10px;
+}
+
+div:hover>.funcoes {
+  display: block;
+}
+
+footer {
   background-color: var(--azul-escuro);
   color: var(--branco);
   text-align: center;
   padding: 5px;
 }
-
